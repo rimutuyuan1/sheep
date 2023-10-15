@@ -60,7 +60,7 @@ export default async function AboutPage() {
             <a href='https://unsplash.com/@aiokr' target='_blank' className={`${style['aboutLink']} flex justify-center items-center  drop-shadow-lg shadow-zinc-300 bg-gradient-to-br from-zinc-800 to-zinc-950`} >
               <svg t="1683381310105" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2792" width="26" height="26"><path d="M960 460.34V960H64V460.34h282.26v249.84h331.48V460.34zM677.74 64H346.26v249.82h331.48z" p-id="2793" fill="#ffffff"></path></svg>
             </a>
-            <a href='mailto:aiokr@outlook.com' target='_blank' className={`${style['aboutLink']} flex justify-center items-center  drop-shadow-lg shadow-emerald-100 bg-gradient-to-br from-emerald-300 to-emerald-600`} >
+            <a href='mailto:xiaoyang020713@163.com' target='_blank' className={`${style['aboutLink']} flex justify-center items-center  drop-shadow-lg shadow-emerald-100 bg-gradient-to-br from-emerald-300 to-emerald-600`} >
               <svg t="1683427985885" className="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3435" width="22" height="22"><path d="M513.92 537.216L99.968 278.592v96.96L513.92 637.44v-0.32l412.48-265.664V277.12L513.92 537.216zM0 128h1024v768H0V128z" fill="#ffffff" p-id="3436"></path></svg>
             </a>
           </div>

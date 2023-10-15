@@ -5,8 +5,8 @@ import style from './hero.module.css'
 import { allPosts, allPhotos } from 'contentlayer/generated'
 
 export const metadata = {
-  'title': 'Sean\'s secret world',
-  'og:title': '按下瞬间 - Tripper Press',
+  'title': 'Tripper press - 按下瞬间',
+  'og:title': 'Tripper press - 按下瞬间',
   'og:image': 'https://tripper.press/api/og?title=按下瞬间&subtitle=衔枝筑巢，栽花种树。生活沉闷，前行有风。',
 }
 
@@ -103,8 +103,8 @@ export default async function Home() {
             automatically="true"
             provided="true"
           />
-          <Link href='mailto:aiokr@outlook.com' target='_blank'>
-            <div className="text-xl text-center text-sub dark:text-white pb-4">Sean's secret world</div>
+          <Link href='mailto:xiaoyang020713@163.com' target='_blank'>
+            <div className="text-xl text-center text-sub dark:text-white pb-4">Tripper press - 按下瞬间</div>
           </Link>
         </div>
       </div>
