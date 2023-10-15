@@ -15,7 +15,7 @@ export default async function AboutPage() {
       <div className='container px-4 lg:px-2 max-w-[1000px] grid grid-cols-12 grid-rows-2 gap-4 pt-[65px]'>
         <div className={`${style['aboutCard']} relative row-span-1 col-span-6 px-6 py-4 lg:px-10 lg:py-8 bg-main`}>
           <div className='text-xl lg:text-3xl font-[500] leading-[36px] lg:leading-[48px] text-white'>👋 Hey,</div>
-          <div className='text-2xl leading-5 lg:text-[48px] py-1 lg:py-8 font-[500] text-white'>I am aiokr</div>
+          <div className='text-2xl leading-5 lg:text-[48px] py-1 lg:py-8 font-[500] text-white'>I am Sean</div>
         </div>
         <div className={`${style['aboutCard']} row-span-1 col-span-6 p-6 lg:p-12 bg-black`}>
           <div className={`${style['earthCard']} h-full`}></div>

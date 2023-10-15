@@ -17,20 +17,11 @@ export default function Footer() {
             width={32} height={32}
             alt="logo" automatically="true" provided="true"
           />
-          <span className='text-lg lg:text-2xl text-bold leading-[32px] align-middle pl-4'>Tripper Press<span className='px-3'>·</span>按下瞬间</span>
+          <span className='text-lg lg:text-2xl text-bold leading-[32px] align-middle pl-4'>Tripper Press</span>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3'>
           <p className='block opacity-80 dark:text-white'>
-            <Link className='text-main' href='https://github.com/aiokr/Tripper-Next' target='_blank'>Design and Code by aiokr</Link> <br />
-            {
-              process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA ? (
-                <Link className='block text-ellipsis overflow-hidden' href={`https://github.com/aiokr/Tripper-Next/commit/` + `${process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA}`} target='_blank'>
-                  Build by Github Commit
-                </Link>
-              ) : (
-                <span className='block text-ellipsis overflow-hidden'>Build By Vercel CLI</span>
-              )
-            }
+            <Link className='text-main' href='https://github.com/rimutuyuan1/Tripper-Next' target='_blank'>Design and Code by Sean</Link> <br />
             © Tripper Press 2016-2023 <br />
           </p>
         </div>
