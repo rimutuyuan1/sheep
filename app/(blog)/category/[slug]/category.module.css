@@ -1,8 +1,0 @@
-.postEntry .postEntryTitle {
-    transition: all 0.3s ease-in-out;
-}
-
-.postEntry:hover .postEntryTitle {
-    transition: all 0.3s ease-in-out;
-    color: var(--main-color);
-}
