@@ -1,22 +1,23 @@
 ---
 type: Post
-title: TimeStretcher / KeyframeStretcher / Duplicate 节点 - Fusion 日拱一卒 
-date: 2023-06-22
+title: Xiaoyang Ma @Sean
+date: 2023-10-15
 author: aiokr
-category: MG
+category: profile
 url: fusion01
+cover: https://imgur.lzmun.com/picgo/2023/202305192320685.jpeg_itp
 ---
 
-**TimeStretcher** 时间拉伸（时间重映射），用于制作视频慢放、标题文字的退出（在只制作了入场动画时，通过 TimeStretcher 将出场时间映射为入场动画的倒放）等。
+My name is **Ma Xiaoyang**
 
-**KeyframeStretcher** 关键帧拉伸，用于制作可以自适应长度的模板，详见以下节点代码。
+You can call me Sean.  My undergraduate major is photography and film.
 
-[KeyframeStretcher 节点用法](https://gist.github.com/aiokr/5064f8c8b35c8610905189a5be576099)
+My portfolio includes both conventional photography and installation photography. I have a penchant for delving into contemporary art through the use of installations, distinct lenses, and traditional narrative techniques in photography. 
 
-参考链接：[[Vicco] Fusion中有意思的TimeStretcher和KeyStretcher_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1UA411U7oo/)
+In my view, photography is a sensory experience, a means for me to convey emotions. Through this medium, I can articulate thoughts and emotions that are challenging to verbalize. Studying photographers such as Becher and Alec Soth has provided me with a profound understanding of my craft. 
+
+This depth of comprehension allows me to more comprehensively express my ideas in subsequent works, further shaping my perspective on photography and photographic installations. 
+
+This is my view on photography and contemporary art, and I will continue to combine traditional photography and contemporary art in my way.
 
 ---
-
-**Duplicate** 节点，用于将一个部件重复多次，可以用于制作 Loading 动画等。
-
-参考链接：[达芬奇综艺素材制作：fusion制作“加载中”动画_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1XK411i78k/)

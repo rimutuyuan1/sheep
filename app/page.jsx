@@ -27,14 +27,7 @@ export default async function Home() {
       <div className='container px-6 lg:px-8 max-w-[1280px] pt-16 md:pt-20 lg:pt-36 pb-6'>
         <div className="inline-block text-3xl lg:text-5xl font-bold dark:text-white pt-12 pb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#9DCBEE] to-main ">Tripper press</div>
         <div className="md:text-lg lg:text-lg text-sub dark:text-white pb-4">Cherish the romantic universe and daily life.</div>
-        <div className='pb-4 flex gap-6'>
-          <Link className='inline-block text-sub hover:text-main dark:text-white transition' href='https://twitter.com/skomobi' target='_black'>
-            <svg viewBox="0 0 48 48" height="1.2em" fill='currentColor' xmlns="http://www.w3.org/2000/svg"><path d="M5 35.7622C6.92886 36.8286 20.8914 44.8773 30.8199 38.674C40.7483 32.4707 40.2006 21.7833 40.2006 16.886C41.1 15.0018 43 14.0439 43 8.9438C41.1337 10.6678 39.2787 11.2544 37.435 10.7036C35.6287 7.94957 33.1435 6.73147 29.9794 7.04934C25.2333 7.52614 23.4969 12.1825 24.0079 18.2067C16.6899 21.9074 10.9515 15.524 7.99418 10.7036C7.00607 14.4999 6.0533 19.0576 7.99418 24.0995C9.2881 27.4607 12.3985 30.3024 17.3254 32.6246C12.3323 35.3308 8.22382 36.3766 5 35.7622Z" fill="none" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" /></svg>
-          </Link>
-          <Link className='inline-block text-sub hover:text-main dark:text-white transition' href='https://space.bilibili.com/11597001' target='_black'>
-            <svg height="1.2em" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="14" width="38" height="28" rx="2" stroke="currentColor" strokeWidth="4" /><path d="M24 14L38 6" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /><path d="M23 14L10 6" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /><path d="M35 20L35 26" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" /><rect x="33" y="32" width="4" height="4" rx="2" fill="currentColor" /></svg>
-          </Link>
-        </div>
+
       </div>
       <div className='container lg:px-8 max-w-[1280px]'>
         <div className={`${style['postHeader']} px-6 lg:px-0 pt-8 pb-4`}>
@@ -110,9 +103,8 @@ export default async function Home() {
             automatically="true"
             provided="true"
           />
-          <div className="text-xl text-center text-sub dark:text-white pb-4">前行有风</div>
           <Link href='mailto:aiokr@outlook.com' target='_blank'>
-            <div className="text-xl text-center text-sub dark:text-white pb-4">aiokr@outlook.com</div>
+            <div className="text-xl text-center text-sub dark:text-white pb-4">Sean's secret world</div>
           </Link>
         </div>
       </div>

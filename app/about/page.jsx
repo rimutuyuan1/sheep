@@ -66,36 +66,6 @@ export default async function AboutPage() {
           </div>
         </div>
       </div>
-      <div className='container px-4 lg:px-2 max-w-[1000px] grid grid-cols-12 pt-4'>
-        <div className={`${style['aboutCard']} col-span-12 px-6 py-4 lg:px-10 lg:py-8 bg-gradient-to-br from-[#6BE1AE] to-[#71afdd]`}>
-          <div className='text-xl lg:text-3xl font-[500] leading-[48px] lg:leading-[60px] text-white'>🔗 My Friends</div>
-          <div className='py-4 text-white grid grid-cols-2 lg:grid-cols-4'>
-            {friends.map((friends) => (
-              <a key={friends.title} href={`${friends.url}`} target='_blank'>
-                {friends.title}
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className='container px-4 lg:px-2 max-w-[1000px] grid grid-cols-12 pt-4'>
-        <div className={`${style['aboutCard']} ${style['labCard']} col-span-12 px-6 py-4 lg:px-10 lg:py-8 bg-[#121212]`}>
-          <div className='text-xl lg:text-3xl font-[500] leading-[48px] lg:leading-[60px] text-white'>🧑‍💻 Labs</div>
-          <div className='py-4 text-white grid grid-cols-2 lg:grid-cols-4'>
-            <Link href='/labs/css' c>CSS 新特性</Link>
-            <Link href='/labs/color' c>Tripper Color</Link>
-          </div>
-        </div>
-      </div>
-      <Image
-        src="https://imgur.lzmun.com/picgo/after2022/202209101335136.png_avatar"
-        alt="Picture of the author"
-        className='center py-12'
-        width={128}
-        height={128}
-        automatically="true"
-        provided="true"
-      />
     </main>
   )
 }
